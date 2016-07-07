@@ -43,7 +43,10 @@
     "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
       "version": "1.0.0-preview2-final",
       "type": "build"
-    }
+    },
+    "System.Collections.Specialized": "4.0.1",
+    "System.Net.Primitives": "4.0.11",
+    "System.Text.Encoding": "4.0.11"
   },
 
   "tools": {

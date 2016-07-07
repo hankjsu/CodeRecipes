@@ -1,4 +1,8 @@
 
+using System.Collections.Specialized;
+using System.Net;
+using System.Text;
+
 namespace dotnet.Services
 {
     public interface IRemoteRequestService
