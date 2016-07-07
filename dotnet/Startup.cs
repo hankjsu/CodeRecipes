@@ -82,6 +82,11 @@ namespace dotnet
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+
+                routes.MapRoute(
+                    "UploadFile","uploadfile",
+                    new{controller = "File",action = "Index"});
+                    
             });
         }
     }
