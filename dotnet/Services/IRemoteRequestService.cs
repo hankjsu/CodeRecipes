@@ -17,6 +17,6 @@ namespace dotnet.Services
 
         string Post(string url,NameValueCollection data,CookieContainer cookieContainer);
 
-        string Post(string url,NameValueCollection data,CookieContainer cookieContainer,Encoding encoding);
+        string Post(string url,NameValueCollection data,CookieContainer cookieContainer,Encoding encode);
     }
 }
